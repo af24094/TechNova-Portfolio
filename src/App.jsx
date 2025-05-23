@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="app">
       {/* ヘッダー */}
-      <div className="header">
+      <header className="header">
         <div className="header-name">
           <img className="icon" src="https://pbs.twimg.com/profile_images/1607995544168980480/p-qNwFQV_400x400.png" />
           <div className="name">Your Name</div>
@@ -21,7 +21,7 @@ function App() {
           <a href="https://github.com/your-profile" className="link">
             <img className="icon" src="https://pbs.twimg.com/profile_images/1607995544168980480/p-qNwFQV_400x400.png" />
           </a>
-        </div>
+        </header>
       </div>
 
       {/* メインコンテンツ */}
